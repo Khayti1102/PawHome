@@ -1,0 +1,81 @@
+.Success_stories{
+   
+    padding: 30px;
+    text-align: center;
+}
+.Success_stories h1{
+    color: #5c4a99;
+    font-family: 'Play Fair', georgia, serif;
+    font-weight: 200;
+
+}
+
+.review_card_container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+.single_slide{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.review_card{
+    border: 1.5px solid rgb(255, 0, 179);
+    box-shadow: 1px 2px 4px 4px rgb(249, 191, 232);
+    background-color: #fee3eb;
+    color: #5C5470;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+/* ************************************************************************************************************ */
+
+
+.last_appeal{
+    color: #5C5470;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px 10px 30px;
+    margin-bottom:30px ;
+   
+}
+.appeal{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.appeal p{
+    line-height: 10px;
+}
+
+.last_appeal h2{
+    color: #5c4a99;
+    font-family: 'Play Fair', georgia, serif;
+    
+}
+
+#heart{
+    font-size: 50px;
+
+}
+.adopt{
+    background-color: #d696c6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    
+
+   
+}
+.adopt:hover{
+    background-color: #B97AA5;
+    
+    
+}

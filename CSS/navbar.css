@@ -1,0 +1,71 @@
+
+.header{
+    background-color: #5E548E;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+/* ********************************LOGO********************************** */
+.logo_name{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin: 30px;
+
+}
+.big{
+    
+    font-size: 20px;
+    font-family: 'Play Fair',  Georgia,serif;
+
+}
+.small
+{
+    font-size: 10px;
+    line-height: 0px;
+}
+/* ************************************LOGO************************************************************ */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav a{
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color:white;
+    
+    padding: 9px;
+    margin-right: 20px;
+    
+}
+nav a:hover{
+    transition: 0.4s;
+    background-color: #CDB4DB;
+    color: #43325E; 
+    
+}
+.login{
+    background-color: transparent;
+    border: 2px solid #DCCCF2;
+    color: #EEE8F7;
+    
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.login:hover{
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.589);
+    color: #43325E;
+}

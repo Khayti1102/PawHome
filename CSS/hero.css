@@ -1,0 +1,51 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    
+}
+.hero_card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero_card{
+    height: 300px;   
+}
+.msg{
+    margin: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: Arial;
+    color: #5C5470;
+    
+}
+.msg h1{
+    font-weight: 250;
+    color: #5c4a99;
+    line-height: 50px;
+    font-size: 40px;
+    font-family: 'Play Fair',Georgia,serif;
+
+}
+.msg button{
+    background-color: #cf73d4;
+    color: white;
+    font-weight: 600;
+    padding: 12px 30px 10px 30px;
+    border-radius: 5px;
+    border: none;
+    margin:  30px 20px 0px 0px;
+
+}
+.msg button:hover{
+    
+    color: white;
+    background-color: #ab59b0;
+    
+  
+
+
+}

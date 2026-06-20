@@ -1,0 +1,99 @@
+
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    
+    border: 5px solid purple ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../resources/login\ _backgroud.png');
+    font-family: "Poppins", sans-serif;
+}
+
+/* .container class is the login wrapper , whose dimension is same as body,whose dimension is entire body, 
+so that i dont have to modify body tag, since it will affect the body of entire website */
+
+.heading{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #8E7CC3;
+}
+.card{
+    
+    box-shadow: 0px 0px 8px 3px #f9cce2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background-color: #FCEEF5;
+    border-radius: 10px;
+    color: #4A4361;
+    
+}
+.card_signup{
+    box-shadow: 0px 0px 8px 3px #f9cce2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    padding: 20px;
+    gap: 5px;
+    text-align: center;
+    background-color: #FCEEF5;
+    border-radius: 10px;
+    color: #4A4361;
+}
+.card_signup h1{
+    margin-bottom: -10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+.card h1{
+    margin-bottom: -10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+.logo{
+    width: auto;
+    height: 50px;
+}
+.input{
+    padding: 10px 15px ;
+    border-radius: 5px;
+    border: 1.5px solid #b4aecb;
+    color: #7C778F;
+}
+
+.btn{
+    padding: 10px 15px ;
+    border-radius: 5px;
+    border: none;
+    background-color: #B8A7E6;
+    color: white;
+}
+.btn:hover{
+    background-color: #8E7CC3;
+    
+}
+.tiny{
+    font-size: 12px;  
+}
+
+.card a{
+    color: #8E7CC3;
+    text-decoration: none;
+}
+.card_signup a{
+    color: #8E7CC3;
+    text-decoration: none;
+}
+.forget{
+    text-align: right;
+}

@@ -1,0 +1,53 @@
+
+.Adoptation_process{
+    
+    text-align: center;
+
+}
+.Adoptation_process h1{
+    font-family: 'Play Fair', georgia, serif;
+    color: #5c4a99;
+    font-weight: 200;
+}
+.process_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+.process_card{
+    background-color: #fee3eb;
+    color: #5C5470;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 5px ;
+    border: 1.5px solid rgb(255, 0, 179);
+    box-shadow: 1px 2px 4px 4px rgb(249, 191, 232);
+}
+.process_card:hover{
+    transition: 0.5s;
+    transform: translateY(-5px);
+    box-shadow: 2px 3px 4px 4px rgb(247, 165, 250);
+
+}
+.process_card h2{
+    font-family: 'Play Fair', georgia, serif;
+    color: #5c4a99;
+    font-weight: 200;
+}
+
+.process_card p{
+    font-family: Arial;
+    font-size: 0.9rem;
+}
+.arrow_card{
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(135, 117, 145);
+    font-size: 50px;
+    
+}
