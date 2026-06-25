@@ -1,0 +1,236 @@
+
+body{
+    background-image: url('../resources/login\ _backgroud.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6a54b19e;
+    
+    font-size: 22px;
+    color: white; 
+    text-align: center;
+    font-size: 16px;
+    height: 35vh;
+    font-family: arial;
+    line-height: 40px;
+    margin-bottom: 9vh;
+}
+.hero h1{
+
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Play Fair', georgia, serif;
+    font-weight: 200;  
+    margin-bottom: 30px; 
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    
+    
+    /* margin: 0vh 15vw; */
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card h2{
+    font-size: 20px; 
+   
+   font-weight: 200;
+   text-align: center;
+    font-family: 'Play Fair', georgia, serif;  
+    margin-bottom: 10px; 
+    color:#795fc4;
+}
+.amount_box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    gap: 5px;
+}
+.amt{
+    padding: 10px 15px ;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffa0e2;
+    color: white;
+    
+}
+.amt:hover{
+   background-color: #db6eba;
+    transform: translateY(-2px);
+    transition: 0.5s;
+    box-shadow: 0px 4px 8px -4px #b8b8b8;
+     
+}
+.card hr{
+    font-weight: bold;
+    color: rgb(9, 5, 253);
+    width: 100%;
+}
+
+
+
+.card{
+    
+    box-shadow: 0px 0px 8px 3px #f9cce2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: clamp(270px,30vw,30vw);
+    /* width: 30vw; */
+    padding:  3vh 2vw;
+   margin-bottom: 5vh;
+    background-color: #fbf1f6;
+    border-radius: 10px;
+    color: #7C778F;
+    font-family: Arial;
+    font-size: 15px;
+    /* diapperar placeholder of text area when user clicks on it */
+
+    
+}
+.card:hover{
+    transition: 0.5s;
+  transform: translateY(-5px);
+  box-shadow: 2px 3px 4px 4px rgb(247, 165, 250);
+}
+.input{
+    padding: 10px 15px ;
+    border-radius: 5px;
+    border: 1.5px solid #b4aecb;
+    color: #7C778F;
+    width: 200px;
+}
+
+textarea{
+    font-family: inherit;
+    font-size: inherit;
+    
+}
+.labelled_input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: end;
+    align-items: center;
+    gap: 20%;
+    
+   
+}
+#select{
+    width: 50%;
+}
+.btn{
+    padding: 10px 15px ;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffa0e2;
+    color: white;
+    text-decoration: none;
+    width: 25%;
+    
+    
+}
+.btn:hover{
+    
+    background-color: #db6eba;
+     transform: translateY(-2px);
+     transition: 0.5s;
+    box-shadow: 0px 4px 8px -4px #b8b8b8;
+    
+}
+
+
+
+
+
+
+/* *****************************YOUR IMPACT****************************************************************************** */
+
+/* Mission */
+
+.mission_card h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Play Fair', georgia, serif;
+    font-weight: 200;  
+    margin-bottom: 30px; 
+    color:#795fc4;
+
+}
+
+.thank{
+    font-size: 20px; 
+   font-style: italic;
+   font-weight: 200;
+   text-align: center;
+    font-family: 'Play Fair', georgia, serif;  
+    margin-bottom: 30px; 
+    color:#795fc4;
+}
+
+
+.mission_card {
+  box-shadow: 1px 2px 4px 4px rgb(249, 191, 232);
+  /* border: 1px solid rgb(255, 0, 179); */
+  background-color: #fceef5;
+  padding: 0% 2%;
+  padding-bottom: 0px;
+  /* max-height: auto; */
+  border-radius: 10px;
+  width:auto;
+  
+  max-height:345px ;
+  
+  
+}
+.mission_card:hover {
+  transition: 0.5s;
+  transform: translateY(-5px);
+  box-shadow: 2px 3px 4px 4px rgb(247, 165, 250);
+}
+/* ************************************************************************************************************ */
+ 
+.logo_name{
+    display: flex;
+    align-items: center;
+    color: #6f60a1;
+    gap: 20px;
+    font-family: Arial;
+}
+
+
+.big{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial;
+    margin-bottom: 0px;
+
+}
+
+    
+
+.symbol{
+    font-size: 30px;
+}

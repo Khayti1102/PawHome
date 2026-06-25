@@ -5,15 +5,20 @@
 
 }
 .Adoptation_process h1{
+    margin-top: 10vh;
     font-family: 'Play Fair', georgia, serif;
     color: #5c4a99;
     font-weight: 200;
+}
+.adopt_process{
+    width: 100vw;
 }
 .process_container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     justify-content: center;
+    width: 100%;
 }
 .process_card{
     background-color: #fee3eb;

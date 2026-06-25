@@ -1,0 +1,99 @@
+body {
+  background-image: url("../resources/login\ _backgroud.png");
+  
+}
+
+/* HERO */
+
+
+/* class h1 */
+.h1 {
+  text-align: center;
+  color: #5c4a99;
+  font-size: 40px;
+  font-family: "Play Fair", georgia, serif;
+  font-weight: 200;
+  margin-top: 7%;
+  margin-top: 0px;
+}
+/* PROCESS */
+
+
+
+/* Mission */
+.mission {
+  justify-content: center;
+  margin: 5% 5%;
+  display: flex;
+    max-height: 100vh
+}
+
+.mission_card {
+  box-shadow: 1px 2px 4px 4px rgb(249, 191, 232);
+  border: 1px solid rgb(255, 0, 179);
+   background-color: #ffedf6;
+  /* background-image: url('IMG_20260624_205544.png'); */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  padding: 2% 5%;
+  border-radius: 10px;
+  width: auto;
+  color: rgb(88, 64, 243);
+  font-family: Arial;
+  color: #5c5470;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ height: 100%;
+
+}
+
+
+.mission_card:hover {
+  transition: 0.5s;
+  transform: translateY(-5px);
+  box-shadow: 2px 3px 4px 4px rgb(247, 165, 250);
+}
+.btn_1{
+    
+     text-align: center;
+  display: block;
+  border: 2px solid purple;
+  height: 45px;
+  border-radius: 5px;
+ /* background-color: #fb72d0; */
+  background-color: #ff82d779;
+  color: purple;
+  font-size: small;
+  width: 100%;
+  
+}
+.mission_card a{
+  text-decoration: none;
+   width: 40%;
+}
+
+/* BUTTONS */
+.btn {
+  text-align: center;
+  display: block;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  /* background-color: #fb72d0; */
+  background-color: #b97aa5;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+
+}
+.btn:hover {
+  background-color: #9c5084;
+}

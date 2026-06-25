@@ -1,0 +1,116 @@
+
+body{
+    background-image: url('../resources/login\ _backgroud.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6a54b19e;
+    
+    font-size: 22px;
+    color: white; 
+    text-align: center;
+    font-size: 16px;
+    height: 35vh;
+    font-family: arial;
+    line-height: 40px;
+    margin-bottom: 9vh;
+}
+.hero h1{
+
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Play Fair', georgia, serif;
+    font-weight: 200;  
+    margin-bottom: 30px; 
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card{
+    
+    box-shadow: 0px 0px 8px 3px #f9cce2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 450px;
+    padding: 20px;
+    margin-bottom: 9vh;
+    background-color: #FCEEF5;
+    border-radius: 10px;
+    color: #7C778F;
+    font-family: Arial;
+    font-size: 15px;
+
+    /* diapperar placeholder of text area when user clecks on it */
+
+    
+}
+.input{
+    padding: 10px 15px ;
+    border-radius: 5px;
+    border: 1.5px solid #b4aecb;
+    color: #7C778F;
+    width: 200px;
+}
+textarea{
+    font-family: inherit;
+    font-size: inherit;
+    
+}
+.labelled_input{
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+    
+   
+}
+#select{
+    width: 235px;
+}
+.btn{
+    padding: 10px 15px ;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffa0e2;
+    color: white;
+}
+.btn:hover{
+    
+    background-color: #db6eba;
+     transform: translateY(-2px);
+     transition: 0.5s;
+    
+}
+.tiny{
+    font-size: 12px;  
+}
+
+.card a{
+    color: #8E7CC3;
+    text-decoration: none;
+}
+.card_signup a{
+    color: #8E7CC3;
+    text-decoration: none;
+}
+.forget{
+    text-align: right;
+}

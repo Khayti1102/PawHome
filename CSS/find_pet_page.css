@@ -1,0 +1,124 @@
+body {
+  background-image: url("../resources/bg_home.png");
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6550aab8;
+    color: white; 
+    text-align: center;
+    font-size: 16px;
+    height: 35vh;
+    font-family: arial;
+    line-height: 40px;
+    margin-bottom: 9vh;
+}
+.hero h1{
+
+    /* text-align: center; */
+    font-size: 50px;
+    font-family: 'Play Fair', georgia, serif;
+    font-weight: 200;  
+    margin: 30px; 
+/* ******************************************************************************************************* */
+}
+.filter_card{
+  /* border: 5px solid rgb(68, 255, 0); */
+  box-shadow: 1px 2px 4px 4px rgb(249, 191, 232);
+  background-color: #fee3eb;
+  color: #5c5470;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 5vh ;
+  margin: 5vw;
+  border-radius: 10px;
+
+}
+.filter_card select{
+    padding: 0px 15px ;
+    height: 45px;
+    border-radius: 5px;
+    border: 1.5px solid #b4aecb;
+    color: #7C778F;
+}
+.btn{
+    padding: 0px 35px ;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #B8A7E6;
+    color: white;
+}
+.btn:hover{
+    background-color: #6550aab8;
+    
+    
+}
+
+/* ******************************************************************************************************************** */
+.featured{
+    
+}
+.featured h1 {
+  color: #5c4a99;
+  font-family: "Play Fair", georgia, serif;
+  font-weight: 200;
+  text-align: centre;
+}
+/* cards */
+.featured_cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 5vw;
+  padding: 7vw;
+}
+
+.pet {
+  border: 1px solid rgb(255, 0, 179);
+  box-shadow: 1px 2px 4px 4px rgb(249, 191, 232);
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial;
+  background-color: #fee3eb;
+  color: #5c5470;
+}
+.pet:hover {
+  transition: 0.5s;
+  background-color: #ffedf2;
+  border: 0.5px solid rgb(158, 95, 169);
+  box-shadow: 0px 4px 5px rgb(60, 34, 79);
+  transform: translateY(-5px);
+}
+
+/* background-color: #FCEEF5; */
+
+.pet img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+.pet h2 {
+  color: #5c4a99;
+  font-family: "Play Fair", Georgia, serif;
+}
+
+
+.adopt {
+  background-color: #e49ecc;
+  color: white;
+  font-weight: 600;
+  padding: 12px 30px 10px 30px;
+  border-radius: 5px;
+  border: none;
+  margin: 30px 20px 0px 0px;
+}
+.adopt:hover {
+  transition: 0.3s;
+  color: white;
+  background-color: #b97aa5;
+}

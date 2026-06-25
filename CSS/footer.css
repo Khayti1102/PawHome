@@ -23,14 +23,19 @@
     background-color: #5e548e;
     color: white;
     padding: 5px 50px 5px 50px;
+    width: 100vw;
 
 }
 .footer_card_container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  flex-wrap: wrap;
   justify-content: space-between;
+  width: 100vw;
 }
 .footer_card {
   display: flex;
+ 
   flex-direction: column;
   text-align: left;
   padding: 25px;

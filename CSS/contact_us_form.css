@@ -1,0 +1,178 @@
+
+body{
+    background-image: url('../resources/login\ _backgroud.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6a54b19e;
+    
+    font-size: 22px;
+    color: white; 
+    text-align: center;
+    font-size: 16px;
+    height: 35vh;
+    font-family: arial;
+    line-height: 40px;
+    margin-bottom: 9vh;
+}
+.hero h1{
+
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Play Fair', georgia, serif;
+    font-weight: 200;  
+    margin-bottom: 30px; 
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 10vw;
+
+    justify-content: space-between;
+    height: 70vh;
+    margin: 10vh 20vw;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card{
+    
+    box-shadow: 0px 0px 8px 3px #f9cce2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 450px;
+    padding: 20px;
+   
+    background-color: #fbf1f6;
+    border-radius: 10px;
+    color: #7C778F;
+    font-family: Arial;
+    font-size: 15px;
+    /* diapperar placeholder of text area when user clecks on it */
+
+    
+}
+.card:hover{
+    transition: 0.5s;
+  transform: translateY(-5px);
+  box-shadow: 2px 3px 4px 4px rgb(247, 165, 250);
+}
+.input{
+    padding: 10px 15px ;
+    border-radius: 5px;
+    border: 1.5px solid #b4aecb;
+    color: #7C778F;
+    width: 200px;
+}
+textarea{
+    font-family: inherit;
+    font-size: inherit;
+    
+}
+.labelled_input{
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+    
+   
+}
+#select{
+    width: 235px;
+}
+.btn{
+    padding: 10px 15px ;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffa0e2;
+    color: white;
+}
+.btn:hover{
+    
+    background-color: #db6eba;
+     transform: translateY(-2px);
+     transition: 0.5s;
+    box-shadow: 0px 4px 8px -4px #b8b8b8;
+    
+}
+
+
+
+
+
+
+/* *****************************CONTACT DETAILS****************************************************************************** */
+
+/* Mission */
+
+.mission_card h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Play Fair', georgia, serif;
+    font-weight: 200;  
+    margin-bottom: 30px; 
+    color:#795fc4;
+
+}
+.mission_card {
+  box-shadow: 1px 2px 4px 4px rgb(249, 191, 232);
+  /* border: 1px solid rgb(255, 0, 179); */
+  background-color: #fceef5;
+  padding: 2% 3%;
+  border-radius: 10px;
+  width:auto;
+  
+  
+}
+.mission_card:hover {
+  transition: 0.5s;
+  transform: translateY(-5px);
+  box-shadow: 2px 3px 4px 4px rgb(247, 165, 250);
+}
+/* ************************************************************************************************************ */
+ 
+.list_item{
+    display: flex;
+    align-items: center;
+    color: #6f60a1;
+    gap: 20px;
+    font-family: Arial;
+}
+
+
+.big{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial;
+    margin-bottom: 0px;
+
+}
+.small
+{
+    font-size: 11px;
+    margin-top: 15px;
+    
+}
+.symbol{
+    font-size: 30px;
+}

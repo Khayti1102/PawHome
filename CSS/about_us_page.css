@@ -1,0 +1,127 @@
+
+body{
+    background-image: url('../resources/bg-blossom.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    }
+
+
+/* ************************************************************************************ */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6a54b19e;
+    
+    font-size: 22px;
+    color: white; 
+    text-align: center;
+    font-size: 16px;
+    height: 35vh;
+    font-family: arial;
+    line-height: 40px;
+    margin-bottom: 9vh;
+}
+.hero h1{
+
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Play Fair', georgia, serif;
+    font-weight: 200;  
+    margin-bottom: 30px; 
+}
+
+/* ************************************************************************************* */
+
+.h1{
+    text-align: center;
+    color: #5c4a99;
+    font-size: 40px;
+    font-family: 'Play Fair', georgia, serif;
+    font-weight: 200;   
+    margin-top: 7%;
+    margin-top: 0px;
+}
+.story{
+    
+    text-align: center;
+    padding: 0.5% 20% 0.5% 20%;
+    
+
+}
+.p{
+    text-align: center;
+    font-size: 16px;
+    color: #5C5470;
+    font-family: arial;
+    line-height: 40px;
+
+}
+
+
+/* ****************************************MISSION************************************** */
+
+.mission{
+    margin: 5% 5%;
+
+    display: flex;
+    height: 35vh;
+    gap: 5%
+    
+    
+}
+
+.mission_card{
+    /* border: 2px solid rgb(255, 0, 179); */
+    box-shadow: 1px 2px 4px 4px rgb(249, 191, 232);
+    
+    background-color: #FCEEF5;
+   padding: 2% 5%;
+   border-radius: 10px;
+}
+.mission_icon{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.mission_icon img{
+   object-fit: contain;
+ 
+}
+
+
+
+/* ****************************************************** */
+.values{
+    
+    margin: 5% 5%;
+}
+.value_card_container{
+    
+    display: flex;
+    gap: 3%;
+}
+.value_card{
+    /* border: 5px solid blue; */
+    border-radius: 10px;
+    text-align: center;
+    padding: 1%;
+    line-height: 30px;
+    border: 1px solid rgb(255, 0, 179);
+    box-shadow: 1px 2px 4px 4px rgb(249, 191, 232);
+    background-color: #FCEEF5;
+    
+
+}
+.value_card p{
+    font-style: italic;
+    line-height: 25px;
+}
+
+.value_card h2{
+    color: #5c4a99;
+    font-family: 'Play Fair', georgia, serif;
+      
+}
